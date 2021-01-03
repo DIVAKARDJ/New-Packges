@@ -1,0 +1,19 @@
+{
+    "name": "my/pkg",
+    "description": "This is My Packages",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Divakar",
+            "email": "divakarrajodiya@gmail.com"
+        }
+    ], 
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "My\\Pkg\\": "src/"
+        }
+    }
+}
